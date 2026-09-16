@@ -1,2 +1,166 @@
-# vivianevicente_nailss
-Site profissional - Vivi Chagas Nail Designer
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivi Chagas - Nail Designer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --pink-neon: #ff2e88;
+            --pink-light: #ff85b8;
+            --bg-dark: #0a0a0a;
+        }
+        body {
+            background-color: var(--bg-dark);
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .profile-img {
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--pink-neon);
+            box-shadow: 0 0 40px var(--pink-neon), 0 0 80px rgba(255,46,136,0.4);
+        }
+        .btn-whatsapp {
+            background: linear-gradient(135deg, #25d366, #128c7e);
+            color: white;
+            padding: 14px 40px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 10px;
+            transition: transform 0.3s;
+        }
+        .btn-whatsapp:hover {
+            transform: scale(1.05);
+            color: white;
+        }
+        .btn-instagram {
+            background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }
+        .btn-instagram:hover {
+            color: white;
+        }
+        .section {
+            padding: 80px 20px;
+        }
+        .slogan {
+            font-size: 22px;
+            color: var(--pink-light);
+            font-style: italic;
+            margin-top: 30px;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--pink-neon), var(--pink-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: var(--pink-neon);
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        .about-text {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #ddd;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #222;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HERO — FOTO JÁ NO INÍCIO! 📸 -->
+<section class="hero">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12">
+                <!-- ✅ FOTO LOGO NO TOPO! -->
+                <img src="https://raw.githubusercontent.com/rvlogistca/vivianevicente_nails/main/Screenshot_20260915_234547_Instagram.jpg" alt="Vivi Chagas - Nail Designer" class="profile-img mb-4">
+                
+                <h1>Vivi Chagas</h1>
+                <h2>NAIL DESIGNER</h2>
+                <p style="font-size: 18px; color: #ccc; max-width: 600px; margin: 0 auto;">
+                    Banho de gel e alongamentos de unhas personalizadas. Resistência e elegância em cada detalhe! 💅✨
+                </p>
+                
+                <a href="https://wa.me/5569993858055" target="_blank" class="btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> AGENDAR PELO WHATSAPP
+                </a>
+                <br>
+                <a href="https://instagram.com/vivianevicente" target="_blank" class="btn-instagram">
+                    <i class="fab fa-instagram"></i> @vivianevicente
+                </a>
+                
+                <p class="slogan">Sua melhor versão começa aqui! 💕</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section class="section">
+    <div class="container">
+        <h2 class="text-center">SOBRE MIM</h2>
+        <p class="about-text text-center">
+            Olá! Sou a Vivi Chagas, Nail Designer apaixonada por transformar unhas em verdadeiras obras de arte. 💖
+            Especializada em banho de gel e alongamentos personalizados, atendo em Nova Mamoré - RO, com atendimento domiciliar.
+            Cada cliente é especial, e cada unha conta uma história de beleza e cuidado. 💅
+        </p>
+    </div>
+</section>
+
+<!-- CONTATO -->
+<section class="section">
+    <div class="container text-center">
+        <h2>AGENDE SEU HORÁRIO</h2>
+        <p style="font-size: 20px; color: #ddd; margin-bottom: 20px;">📍 Nova Mamoré - RO</p>
+        <p style="font-size: 18px; color: #aaa;">Atendimento com hora marcada</p>
+        
+        <a href="https://wa.me/5569993858055" target="_blank" class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> AGENDAR AGORA
+        </a>
+    </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer class="footer">
+    <p>© 2026 Vivi Chagas — Nail Designer. Todos os direitos reservados.</p>
+    <p style="margin-top: 10px;">Feito com 💖 em Nova Mamoré - RO</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
